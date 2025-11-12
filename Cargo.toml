@@ -39,3 +39,5 @@ case-insensitive = ["unicase"]
 # [[A]]
 # Key=value
 brackets-in-section-names = []
+
+[workspace]

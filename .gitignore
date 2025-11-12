@@ -5,3 +5,5 @@ Cargo.lock
 Thumbs.db
 /.idea
 /.vscode
+vendor
+!Makefile
