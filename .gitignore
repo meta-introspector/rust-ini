@@ -7,3 +7,4 @@ Thumbs.db
 /.vscode
 vendor
 !Makefile
+process-repo.log

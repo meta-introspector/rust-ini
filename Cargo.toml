@@ -8,7 +8,7 @@ documentation = "https://docs.rs/rust-ini/"
 keywords = ["ini", "configuration", "conf", "cfg"]
 license = "MIT"
 edition = "2018"
-rust-version = "1.64"
+# rust-version = "1.64"
 
 [lib]
 name = "ini"
@@ -40,4 +40,7 @@ case-insensitive = ["unicase"]
 # Key=value
 brackets-in-section-names = []
 
-[workspace]
+#[workspace]
+
+[package.metadata.cargo2nix]
+cargo2nix_path = "/data/data/com.termux.nix/files/home/pick-up-nix2/vendor/rust/cargo2nix/target/debug/cargo2nix"
